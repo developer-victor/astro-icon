@@ -65,7 +65,7 @@ function logCollections(
   if (collections["local"]) {
     names.unshift(iconDir);
   }
-  logger.info(`Loaded icons from ${names.join(", ")}`);
+ // logger.info(`Loaded icons from ${names.join(", ")}`);
 }
 
 async function generateIconTypeDefinitions(
